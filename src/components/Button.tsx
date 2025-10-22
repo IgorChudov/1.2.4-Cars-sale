@@ -1,7 +1,11 @@
 import ButtonActive from './ButtonActive'
 import ButtonDisable from './ButtonDisable'
 
-const Button = ({condition}) => {
+type ButtonProps = {
+  condition: boolean
+}
+
+const Button = ({ condition }: ButtonProps) => {
   if (condition) {
     return <ButtonActive />
   }
