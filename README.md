@@ -6,3 +6,4 @@
 - Создание сборки - npm run build
 - Использовать линтер - npm run lint
 - Просмотр сборки - npm run preview
+- Деплой на гитхаб pages- npm run deploy
